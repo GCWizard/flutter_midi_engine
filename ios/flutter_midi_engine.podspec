@@ -14,9 +14,9 @@ multi-channel playback, program changes, audio effects, and more.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Aditya Sutar' => 'brewnbeer34@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'flutter_midi_engine/Sources/flutter_midi_engine/**/*.swift'
   # Built-in soundfont used by loadSoundfont('') (see tool/generate_soundfont.py)
-  s.resource_bundles = { 'flutter_midi_engine_sounds' => ['Resources/*.sf2'] }
+  s.resource_bundles = { 'flutter_midi_engine_sounds' => ['flutter_midi_engine/Sources/flutter_midi_engine/Resources/*.sf2'] }
   s.dependency 'Flutter'
   s.platform = :ios, '13.0'
 
